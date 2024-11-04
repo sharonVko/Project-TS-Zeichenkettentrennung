@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-TS Zeichenkettentrennung</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Zeichenkettentrennungsmaschine</h1>
+      <p>Zu trennende Zeichenkette</p>
+      <input type="text" name="" id="textInput">
+      <p>Trennen bei Zeichenkette: </p>
+      <input type="text" name="" id="seperationInput">
+      <div>
+      <input type="radio" name="" id="seperateFront" checked>
+      <label for="seperateFront">davor trennen</label>
+      <input type="radio" name="" id="seperateEnd">
+      <label for="seperateEnd">danach trennen</label>
+      <button type="button" id="btn">Hier clicken</button>
+    </div>
+      <h2>Ausgabe</h2>
+      <div id="frontPart">
+       <h3>Vorderer Teil</h3> 
+       <p id="frontPartOutput"></p>
+       </div>
+       <div id="endPart">
+        <h3>Hinterer Teil</h3> 
+        <p id="endPartOutput"></p>
+      </div>
+    
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+#app{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid lightblue;
+    border-style: dashed;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid lightblue;
+    font-size: 1.1rem;
+    color:rgb(46, 46, 231) ;
+}
+#frontPart, #endPart{
+    border: 2px solid lightblue;
+    border-style: dashed;
+    margin: 2% 25%;
+    padding: 0 0 3% 0;
+}
+
+#btn{
+    border: 2px solid lightblue;
+    color: rgb(46, 46, 231);
+    margin: 4% 1% 10px 2%;
+}
+
+#frontPartOutput, #endPartOutput{
+    color: rgb(46, 46, 231);
+    font-size: 1.4rem;font-weight: 600;
+}
